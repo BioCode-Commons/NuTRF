@@ -1,11 +1,16 @@
-*.exe
-Release/
-Debug/
-*.sublime-*
+# Build directories
+build/
+
+# Program output
 *.html
 *.dat
-*.code-workspace
+*.mask
+
+# Python cache
+__pycache__/
+
+# Editor files
 .vscode
 .vstags
-build/
-autom4te.cache/
+*.sublime-*
+*.code-workspace
