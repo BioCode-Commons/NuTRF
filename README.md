@@ -259,3 +259,9 @@ Tandem Repeats Finder was developed by Gary Benson, with Yozen Hernandez, Yevgen
 </details>
 
 Licensed under the [GNU Affero General Public License v3 or later](COPYING), the license of the original TRF. Upstream authorship is recorded in [AUTHORS](AUTHORS); the original manual is in [docs/TRF_README.md](docs/TRF_README.md), and the original release notes are in [docs/upstream/](docs/upstream/).
+
+## Publishing benchmark results
+
+Maintainers publish benchmark updates through this repository. Update [`benchmarks/published.json`](benchmarks/published.json) and the supporting benchmark report, pass the **Published benchmark** check, then merge the PR into `main`. The BioCode Commons website updates automatically; no website edit or personal publishing token is needed.
+
+See [contributor guidelines](CONTRIBUTING.md#benchmark-publication) for the review checklist and [the data format](benchmarks/README.md) for field definitions.
