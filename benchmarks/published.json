@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "project": "NuTRF",
+  "evidence_url": "https://github.com/BioCode-Commons/NuTRF/blob/45f8f432b1f97661010e7ffdaa0e4efcfe690564/BENCHMARKS.md",
+  "rss_unit": "MiB",
+  "rss_scope": "process peak RSS",
+  "time_scope": "As specified for each task in the cited benchmark",
+  "rows": [
+    {
+      "dataset": "GRCh38 chr21 · max period 2000",
+      "resources": "1 core",
+      "baseline_seconds": 194.2,
+      "candidate_seconds": 34.5,
+      "baseline_rss": 215.0,
+      "candidate_rss": 218.0
+    },
+    {
+      "dataset": "GRCh38 chr21 · max period 500",
+      "resources": "1 core",
+      "baseline_seconds": 109.4,
+      "candidate_seconds": 24.2,
+      "baseline_rss": 173.0,
+      "candidate_rss": 173.0
+    },
+    {
+      "dataset": "GRCh38 chr20 · max period 2000",
+      "resources": "1 core",
+      "baseline_seconds": 858.7,
+      "candidate_seconds": 138.1,
+      "baseline_rss": 1299.0,
+      "candidate_rss": 1296.0
+    },
+    {
+      "dataset": "GRCh38 chr1 · max period 2000, -l 6",
+      "resources": "1 core",
+      "baseline_seconds": 630.8,
+      "candidate_seconds": 144.9,
+      "baseline_rss": 5296.0,
+      "candidate_rss": 5290.0
+    }
+  ],
+  "caption": [
+    {
+      "text": "1 core on AMD EPYC 9634; median of three runs."
+    }
+  ],
+  "note": [],
+  "display": {
+    "time_decimals": 1,
+    "rss_decimals": 0,
+    "speedup_column": false
+  },
+  "summary_context": ""
+}
